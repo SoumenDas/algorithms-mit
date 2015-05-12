@@ -14,6 +14,9 @@ class QuickUnion {
 
 	QuickUnion (int size){
 		this.id = new int[size];
+		for (int i=0;i<size ;i++ ) {
+			id[i] = i;
+		}
 	}
 
 	private int root(int i){
